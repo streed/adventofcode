@@ -28,7 +28,7 @@ function proc(line) {
 }
 
 async function run() {
-	const filestream = fs.createReadStream('./input_1');
+	const filestream = fs.createReadStream('./data/input_1');
 	const rl = readline.createInterface({
 		input: filestream,
 		crlfDelay: Infinity
